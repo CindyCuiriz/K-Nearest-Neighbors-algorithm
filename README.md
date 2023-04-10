@@ -31,7 +31,7 @@ This model will help us create better results.
 
 ## Expected problems to solve
 
-
+Interpreting model complexity to avoid overfitting or underfitting KNN models
 
 ## Project owners
 
