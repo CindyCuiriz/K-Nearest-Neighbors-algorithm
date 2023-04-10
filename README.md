@@ -1,5 +1,9 @@
 # **K-Nearest-Neighbors-algorithm**
-Understand main concepts of KNN modeling
+Understanding main concepts of KNN modeling using a Churn dataset that contains:
+
+![image](https://user-images.githubusercontent.com/124749192/230818496-50f31dad-4eec-460d-921d-d7ae061192e4.png)
+
+KNN MODELING is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point. While it can be used for either regression or classification problems, it is typically used as a classification algorithm, working off the assumption that similar points can be found near one another. (IBM) https://www.ibm.com/topics/knn
 
 ## Data resources
 
@@ -12,13 +16,22 @@ Understand main concepts of KNN modeling
 K-Nearest neighbors is an algorithm that helps us predict the label of a new data point by looking at the K closest labeled data points taking a majority vote based on proximity
 
 > #### Motivation
-> 
+> Practice ML algorithms and learn key concepts that help validate effectiveness and accuracy of a certain model and the parameters that will best fit the model
 > #### Limitations
-> 
-> #### Challenges
-> 
+> Model's accuracy as the dataset used was made with random numbers on excel by owner, so the results are random as well, nevertheless, this code can be applied to new datasets that show real data to be analyzed
+> #### Results
+> Testing accuracy peaks with 2  neighbors, which would be the optimal value for our model
+Training accuracy and Testing accuracy decrease as the number of neighbors gets larger
+This might tell us that our model has not that good information to work with, mainly because 
+it is random data I created to test KNN models! But when applied to better information
+This model will help us create better results.
+![knn2](https://user-images.githubusercontent.com/124749192/230819553-2e0bdbf9-89a3-44da-bfa9-8ed7c6955037.PNG)
+![knn](https://user-images.githubusercontent.com/124749192/230819556-3d4f6e9d-79b1-4621-a139-c04004918a54.PNG)
+
 
 ## Expected problems to solve
+
+
 
 ## Project owners
 
