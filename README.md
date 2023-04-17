@@ -11,15 +11,23 @@ KNN MODELING is a non-parametric, supervised learning classifier, which uses pro
 | ----------- | ----------- | ----------- |
 | Python | Código CHURN | [Code](https://github.com/CindyCuiriz/K-Nearest-Neighbors-algorithm/blob/main/CHURN.py) |
 | churn.csv |  RAW Data | [RAW data](https://github.com/CindyCuiriz/K-Nearest-Neighbors-algorithm/blob/main/churn.csv) |
+| telecom_churn.csv |  RAW Data | [RAW data](https://github.com/CindyCuiriz/K-Nearest-Neighbors-algorithm/blob/main/telecom_churn.csv) |
 
 ## Description
 K-Nearest neighbors is an algorithm that helps us predict the label of a new data point by looking at the K closest labeled data points taking a majority vote based on proximity
 
 > #### Motivation
 > Practice ML algorithms and learn key concepts that help validate effectiveness and accuracy of a certain model and the parameters that will best fit the model
-> #### Limitations
+> #### Limitations (UPDATE)
 > Model's accuracy as the dataset used was made with random numbers on excel by owner, so the results are random as well, nevertheless, this code can be applied to new datasets that show real data to be analyzed
-> #### Results
+> --------------------------------------------------------------------------
+>  UPDATE: telecom_churn dataset uploaded, model shows a better CORRELATION
+>  
+> #### Results (UPDATE)
+> UPDATE: MODEL results: 
+> 
+![image](https://user-images.githubusercontent.com/124749192/232604978-8aba6e2f-4fa1-415f-a57b-5dfe03d2437f.png)
+![image](https://user-images.githubusercontent.com/124749192/232605103-ac0dc18d-ca28-40b6-89b7-9031aeba71cd.png)
 > Testing accuracy peaks with 2  neighbors, which would be the optimal value for our model
 Training accuracy and Testing accuracy decrease as the number of neighbors gets larger
 This might tell us that our model has not that good information to work with, mainly because 
