@@ -32,8 +32,8 @@ simplefilter(action='ignore', category=FutureWarning)
 direc = 'C:\\Users\\jocelyn\\Desktop\\Python\\MachineLearning\\'
 
 'Creamos nuestro Dataframe'
-churn_df = pd.read_csv(direc + "churn.csv", index_col="index")
-churn_df.drop("Unnamed: 8", axis=1, inplace=True)
+churn_df = pd.read_csv(direc + "telecom_churn.csv", index_col="index")
+#churn_df.drop("Unnamed: 8", axis=1, inplace=True)
 
 '''
 One excercise taking into consideration total_day_charge and total_eve_charge
